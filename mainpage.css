@@ -1,0 +1,32 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: rgb(58, 58, 58);
+}
+
+h1 {
+  font-family: Segoe UI;
+  color: whitesmoke;
+  font-size: 10vmin;
+  text-align: center;
+}
+
+h4, a {
+  color: whitesmoke;
+  text-align: center;
+  font-family: Segoe UI;
+}
+
+div {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0vmin 5vmin 0 5vmin;
+}
+
+img {
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 2vmin;
+  object-fit: cover;
+}

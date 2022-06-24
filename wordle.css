@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vmin;
+  text-align: center;
+}
+
+#wordle {
+  width: 40vmin;
+  height: 48vmin;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 7vmin;
+  height: 7vmin;
+  border: .25vmin solid lightgrey;
+  margin: .25vmin;
+  font-size: 4vmin;
+  font-family: Clear Sans, Helvetica Neue, Arial, sans-serif;;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  color: white;
+  background-color: #6aaa64;
+  border-color: #6aaa64;
+}
+
+.nearly {
+  color: white;
+  background-color: #c9b458;
+  border-color: #c9b458;
+}
+
+.incorrect {
+  color: white;
+  background-color: #86888a;
+  border-color: #86888a;
+}
+
+.flip {
+  animation-name: flipping;
+  animation-duration: 500ms;
+}
+@keyframes flipping {
+  0% {
+    transfrom: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }  
+}

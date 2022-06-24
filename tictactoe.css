@@ -1,0 +1,69 @@
+*{
+  background-color: lightblue;
+  margin: 0;
+  border: 0;
+  font-family: Snell Roundhand, cursive;
+}
+h1 {
+  font-family: Comic, cursive;
+  text-align: center;
+  font-size: 8vmin;
+}
+
+#board {
+  width: 75vmin;
+  height: 75vmin;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.score {
+  display: inline-flexbox;
+  justify-content: space-between;
+  font-family: Raleway;
+  font-size: 4vmin;
+}
+.player {
+  margin-left: 30vmin;
+  float: left;
+}
+.comp {
+  margin-right: 30vmin;
+  float: right;
+}
+
+.block {
+  width: 24.5vmin;
+  height: 24.5vmin;
+  font-size: 18vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-line {
+  border-bottom: .5vmin solid black;
+}
+
+.vertical-line {
+  border-right: .5vmin solid black;
+}
+
+.player-turn {
+  color: white;
+}
+
+.player-win {
+  color: lightskyblue;
+  background-color: blue;
+}
+
+.comp-win {
+  background-color: grey;
+}
+
+.display {
+  font-size: 6vmin;
+  text-align: center;
+}
